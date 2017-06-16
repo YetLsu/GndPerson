@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YYMapBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="185"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TP-kZ-sRc">
+                    <rect key="frame" x="0.0" y="30" width="375" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="6HQ-Hv-ctf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpQ-7f-K7m">
+                    <rect key="frame" x="0.0" y="60" width="375" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="gSx-ie-YLC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4b-9v-iRB">
+                    <rect key="frame" x="105" y="105" width="165" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="165" id="YM9-FH-hxQ"/>
+                        <constraint firstAttribute="height" constant="50" id="aUA-yb-Nbc"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="home_map_btnBG"/>
+                    <connections>
+                        <action selector="navigationBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Dlc-vR-MQc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="P4b-9v-iRB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4zh-aq-xl6"/>
+                <constraint firstItem="8TP-kZ-sRc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="DsB-CP-xnn"/>
+                <constraint firstItem="8TP-kZ-sRc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FmH-w7-mZg"/>
+                <constraint firstAttribute="trailing" secondItem="kpQ-7f-K7m" secondAttribute="trailing" id="IJQ-U4-Pob"/>
+                <constraint firstAttribute="trailing" secondItem="8TP-kZ-sRc" secondAttribute="trailing" id="UGI-VH-zP0"/>
+                <constraint firstItem="P4b-9v-iRB" firstAttribute="top" secondItem="kpQ-7f-K7m" secondAttribute="bottom" constant="30" id="huR-Gy-MLt"/>
+                <constraint firstItem="kpQ-7f-K7m" firstAttribute="top" secondItem="8TP-kZ-sRc" secondAttribute="bottom" constant="12" id="kRm-EW-lvg"/>
+                <constraint firstItem="kpQ-7f-K7m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ybi-jE-jGk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="navigationBtn" destination="P4b-9v-iRB" id="rve-d0-Grx"/>
+                <outlet property="shopAddressLabel" destination="kpQ-7f-K7m" id="wlC-l5-IhZ"/>
+                <outlet property="shopNameLabel" destination="8TP-kZ-sRc" id="6Yw-Ua-RXg"/>
+            </connections>
+            <point key="canvasLocation" x="314.5" y="2.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_map_btnBG" width="165" height="55"/>
+    </resources>
+</document>

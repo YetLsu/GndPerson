@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="YYShopIntroTableViewCell" rowHeight="200" id="KGk-i7-Jjw" customClass="YYShopIntroTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_noFiveStar" id="HsN-nC-kCg" userLabel="noStarImage View">
+                        <rect key="frame" x="111" y="53" width="93" height="12.5"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_haveFiveStar" id="DPh-D6-g1M" userLabel="starImage View">
+                        <rect key="frame" x="111" y="53" width="93" height="12.5"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_star_like" id="7gP-xc-DSH">
+                        <rect key="frame" x="130" y="117" width="10" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Des-iL-16s">
+                        <rect key="frame" x="166" y="117" width="146" height="10"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" id="t99-un-RsN">
+                        <rect key="frame" x="0.0" y="139" width="375" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_shop_time_icon" id="QNE-1e-ZiL">
+                        <rect key="frame" x="24" y="148" width="13" height="13"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Raj-6v-ART">
+                        <rect key="frame" x="55" y="148" width="149" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_shop_address_icon" id="MpA-Xz-KgI">
+                        <rect key="frame" x="24" y="171" width="13" height="13"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Umk-Do-3pK">
+                        <rect key="frame" x="55" y="171" width="149" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RyC-KZ-57O">
+                        <rect key="frame" x="323" y="148" width="25" height="19"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="home_shop_phone"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VE1-h2-KcC">
+                        <rect key="frame" x="323" y="171" width="25" height="19"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="home_shop_addressbtn"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uZ-7f-wML">
+                        <rect key="frame" x="0.0" y="94" width="375" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CyJ-ma-GPt">
+                        <rect key="frame" x="87" y="17" width="200" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="haveStarImageView" destination="DPh-D6-g1M" id="dhP-CV-aHM"/>
+                <outlet property="lineView" destination="t99-un-RsN" id="ZlK-Z9-OxC"/>
+                <outlet property="noStarImageView" destination="HsN-nC-kCg" id="m5b-mr-NqJ"/>
+                <outlet property="shopAddressBtn" destination="VE1-h2-KcC" id="Yn3-EG-TWU"/>
+                <outlet property="shopAddressImageView" destination="MpA-Xz-KgI" id="M7g-mV-RET"/>
+                <outlet property="shopAddressLabel" destination="Umk-Do-3pK" id="arm-o8-Kkn"/>
+                <outlet property="shopDistanceLabel" destination="3uZ-7f-wML" id="pY0-Jk-F0N"/>
+                <outlet property="shopLikeImageView" destination="7gP-xc-DSH" id="V4S-eB-2wu"/>
+                <outlet property="shopLikeNumLabel" destination="Des-iL-16s" id="8xu-ug-bst"/>
+                <outlet property="shopNameLabel" destination="CyJ-ma-GPt" id="LNb-hC-Jww"/>
+                <outlet property="shopPhoneBtn" destination="RyC-KZ-57O" id="Oae-31-IBC"/>
+                <outlet property="shopTimeImageView" destination="QNE-1e-ZiL" id="3BZ-bY-ccw"/>
+                <outlet property="shopTimeLabel" destination="Raj-6v-ART" id="xEd-xY-afr"/>
+            </connections>
+            <point key="canvasLocation" x="429.5" y="240"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_haveFiveStar" width="87" height="13"/>
+        <image name="home_noFiveStar" width="87" height="13"/>
+        <image name="home_shop_address_icon" width="13" height="13"/>
+        <image name="home_shop_addressbtn" width="25" height="25"/>
+        <image name="home_shop_phone" width="25" height="25"/>
+        <image name="home_shop_time_icon" width="13" height="13"/>
+        <image name="home_star_like" width="10" height="9"/>
+    </resources>
+</document>

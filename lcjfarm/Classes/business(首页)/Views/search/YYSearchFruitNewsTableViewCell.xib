@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="YYSearchFruitNewsTableViewCell" rowHeight="114" id="KGk-i7-Jjw" customClass="YYSearchFruitNewsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="114.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dRr-mQ-V9t">
+                        <rect key="frame" x="12" y="12" width="120" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="aTS-ah-wun"/>
+                            <constraint firstAttribute="width" constant="120" id="q2Q-Fl-T2W"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07Z-cB-CKs">
+                        <rect key="frame" x="144" y="19" width="164" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="G6P-zE-Zij"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="156" translatesAutoresizingMaskIntoConstraints="NO" id="V0a-lF-hXb">
+                        <rect key="frame" x="144" y="48" width="156" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="SqF-fR-tZU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Cs-DN-t4Y">
+                        <rect key="frame" x="12" y="114" width="296" height="0.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="y4q-BZ-HG7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="07Z-cB-CKs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19.5" id="1Pl-Ag-ZT7"/>
+                    <constraint firstAttribute="trailing" secondItem="07Z-cB-CKs" secondAttribute="trailing" constant="12" id="46S-Ji-Kg3"/>
+                    <constraint firstAttribute="bottom" secondItem="2Cs-DN-t4Y" secondAttribute="bottom" id="82y-Uk-2aW"/>
+                    <constraint firstItem="2Cs-DN-t4Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Dg8-NK-lgl"/>
+                    <constraint firstItem="V0a-lF-hXb" firstAttribute="top" secondItem="07Z-cB-CKs" secondAttribute="bottom" constant="12" id="GPz-wb-XIB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="V0a-lF-hXb" secondAttribute="trailing" constant="12" id="Gnn-7c-FoW"/>
+                    <constraint firstItem="07Z-cB-CKs" firstAttribute="leading" secondItem="dRr-mQ-V9t" secondAttribute="trailing" constant="12" id="N45-zN-j1V"/>
+                    <constraint firstAttribute="trailing" secondItem="2Cs-DN-t4Y" secondAttribute="trailing" constant="12" id="dRo-k3-X0P"/>
+                    <constraint firstItem="dRr-mQ-V9t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="dlD-GV-cZb"/>
+                    <constraint firstItem="dRr-mQ-V9t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="uEf-iK-v7D"/>
+                    <constraint firstItem="V0a-lF-hXb" firstAttribute="leading" secondItem="dRr-mQ-V9t" secondAttribute="trailing" constant="12" id="zDV-XK-xAX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fruitNewsContentLabel" destination="V0a-lF-hXb" id="jaN-sa-G9h"/>
+                <outlet property="fruitNewsImageView" destination="dRr-mQ-V9t" id="MRY-2E-Ref"/>
+                <outlet property="fruitNewsNameLabel" destination="07Z-cB-CKs" id="vAZ-bL-Cpd"/>
+                <outlet property="lineView" destination="2Cs-DN-t4Y" id="iiJ-Ow-KTR"/>
+            </connections>
+            <point key="canvasLocation" x="199" y="212.5"/>
+        </tableViewCell>
+    </objects>
+</document>

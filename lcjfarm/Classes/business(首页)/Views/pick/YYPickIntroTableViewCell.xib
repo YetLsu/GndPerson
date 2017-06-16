@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="YYPickIntroTableViewCell" rowHeight="200" id="xIg-rd-7tE" customClass="YYPickIntroTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xIg-rd-7tE" id="BNA-0d-mi9">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_star_like" translatesAutoresizingMaskIntoConstraints="NO" id="BaZ-WO-Lpz">
+                        <rect key="frame" x="130" y="117" width="10" height="10"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXX-ct-P7B">
+                        <rect key="frame" x="166" y="117" width="146" height="10"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDD-xu-f7Y">
+                        <rect key="frame" x="0.0" y="139" width="375" height="1"/>
+                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_shop_time_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ge7-nl-0Ks">
+                        <rect key="frame" x="24" y="148" width="13" height="13"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LL9-Z1-TiU">
+                        <rect key="frame" x="55" y="148" width="149" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_shop_address_icon" translatesAutoresizingMaskIntoConstraints="NO" id="B71-t9-atu">
+                        <rect key="frame" x="24" y="171" width="13" height="13"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvm-JK-2fM">
+                        <rect key="frame" x="55" y="171" width="149" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcq-RJ-Q1M">
+                        <rect key="frame" x="323" y="148" width="25" height="19"/>
+                        <state key="normal" image="home_shop_phone"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0G-as-g3J">
+                        <rect key="frame" x="323" y="171" width="25" height="19"/>
+                        <state key="normal" image="home_shop_addressbtn"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afg-1v-wDQ">
+                        <rect key="frame" x="0.0" y="94" width="375" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbE-4l-53F">
+                        <rect key="frame" x="87" y="17" width="200" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lineView" destination="jDD-xu-f7Y" id="CxJ-Wo-DPV"/>
+                <outlet property="shopAddressBtn" destination="T0G-as-g3J" id="Coy-7a-ism"/>
+                <outlet property="shopAddressImageView" destination="B71-t9-atu" id="Wgb-it-Rej"/>
+                <outlet property="shopAddressLabel" destination="Yvm-JK-2fM" id="bwn-0F-n69"/>
+                <outlet property="shopDistanceLabel" destination="Afg-1v-wDQ" id="wLK-3A-gnC"/>
+                <outlet property="shopLikeImageView" destination="BaZ-WO-Lpz" id="vBU-lM-M3i"/>
+                <outlet property="shopLikeNumLabel" destination="jXX-ct-P7B" id="6DE-Md-OdM"/>
+                <outlet property="shopNameLabel" destination="bbE-4l-53F" id="lWb-eB-z4Y"/>
+                <outlet property="shopPhoneBtn" destination="Vcq-RJ-Q1M" id="k86-rz-Hp5"/>
+                <outlet property="shopTimeImageView" destination="ge7-nl-0Ks" id="PUa-Gc-ZYb"/>
+                <outlet property="shopTimeLabel" destination="LL9-Z1-TiU" id="5tc-0z-IMz"/>
+            </connections>
+            <point key="canvasLocation" x="502.5" y="240"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_shop_address_icon" width="13" height="13"/>
+        <image name="home_shop_addressbtn" width="25" height="25"/>
+        <image name="home_shop_phone" width="25" height="25"/>
+        <image name="home_shop_time_icon" width="13" height="13"/>
+        <image name="home_star_like" width="10" height="9"/>
+    </resources>
+</document>

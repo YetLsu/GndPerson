@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - AKPickerView (0.2.7)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Masonry (0.6.4)
+  - MJRefresh (3.1.0)
+  - MOBFoundation_IDFA (1.4.0)
+  - PNChart (0.8.8):
+    - UICountingLabel (~> 1.2.0)
+  - SDCycleScrollView (1.61):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SMSSDK (2.0.2)
+  - UICountingLabel (1.2.0)
+  - ZLSwipeableView (0.0.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - AKPickerView (~> 0.2.7)
+  - BlocksKit (~> 2.2.5)
+  - Masonry (~> 0.6.4)
+  - MJRefresh (~> 3.1.0)
+  - MOBFoundation_IDFA
+  - PNChart (~> 0.8.8)
+  - SDCycleScrollView (~> 1.61)
+  - SDWebImage (~> 3.7.5)
+  - SMSSDK
+  - ZLSwipeableView (~> 0.0.8)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AKPickerView: 125372e36fcc372216127600a541f14dcdbb7993
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MOBFoundation_IDFA: 3c837e657549ded25f21dc3f34808065a4238502
+  PNChart: 25f91e9c4688af49c3647489760624d037f5383f
+  SDCycleScrollView: a002d85b30cfa9d0ac74069cd3973ca19ff4f22f
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SMSSDK: 4c369e5df6d6998b5341f53bf98a0c18a5b90719
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  ZLSwipeableView: df385760ff4838935cdbcb62878ac5acd7355949
+
+PODFILE CHECKSUM: 46f91978d888ff7206a4e8498953f3f59e17f0fa
+
+COCOAPODS: 1.0.1
